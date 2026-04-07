@@ -1,0 +1,902 @@
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1
+evaluate 0 3 + 5 * 2 ^ 2
+evaluate 0 2 + 3 * 4
+evaluate 0 10 - 2 - 3
+evaluate 0 100 / 4 / 5
+evaluate 0 (2 + 3) * 4
+evaluate 1 a -2 -a * 3 + 4
+evaluate 0 ++5
+evaluate 0 +-3
+evaluate 0 --7
+evaluate 0 ---2
+evaluate 0 ++++5
+evaluate 0 +---3
+evaluate 0 2.5e2 + 1.0e-1
+evaluate 0 1e3 * 2e-2
+evaluate 0 5.5E+2
+evaluate 0 1.0e-5
+evaluate 1 X 4 X^2 + Sin(X)
+evaluate 2 x y 3 2 x*y + x^y
+evaluate 3 a b c 1 2 3 a + b * c - a^b
+evaluate 1 Var 5 2 * Var + 1
+evaluate 1 x 0.5 sin(x) + cos(x)
+evaluate 1 x 1.0 exp(x)
+evaluate 1 x 2.0 log(x)
+evaluate 1 x 4.0 sqrt(x)
+evaluate 1 x 0.0 atan(x)
+evaluate 1 x 0.5 sin(cos(x))
+evaluate 1 x 1.0 exp(log(x + 1))
+evaluate 1 x 2.0 sqrt(sin(x)^2 + cos(x)^2)
+evaluate 1 x 0.5 tan(x)
+evaluate 1 x 0.5 asin(x)
+evaluate 1 x 0.5 acos(x)
+evaluate 1 x 1.0 atan(x)
+derivative 1 x 5 sin(x) * x
+derivative 1 x 3 x^3
+derivative 1 x 2 x^2 + 3*x + 1
+derivative 1 x 1.0 exp(x)
+derivative 1 x 0.5 sin(x)
+derivative 1 x 2 sqrt(x)
+derivative 1 x 1.0 log(x)
+evaluate_derivative 1 x 2 x^3 + 2*x
+evaluate_derivative 1 t 1.5 exp(t)
+evaluate_derivative 1 x 0.5 sin(x) * cos(x)
+evaluate_derivative 1 x 4 x^2
+evaluate 1 x -2 sqrt(x)
+evaluate 1 x -1 log(x)
+evaluate 1 x 2 asin(x)
+evaluate 1 x 2 acos(x)
+evaluate 1 x 0 log(x)
+evaluate 0 5 / 0
+evaluate 1 x 0 1 / x
+evaluate 1 y 3 z + 1
+evaluate 0 5 + * 3
+evaluate 0 (2 + 3
+evaluate 0 2 + )
+evaluate 0 sin x
+evaluate 0 002
+evaluate 0 2.
+evaluate 0 1e
+evaluate 0 1e+
+evaluate 0 1abc
+evaluate 0 2.r
+evaluate 0 2.0
+evaluate 0 17.000000
+evaluate 0 100
+evaluate 0 0.5
+evaluate 0 0.00123456
+evaluate 0 1.41421356
+evaluate 0 1 / 0
+evaluate 0 -1 / 0
+evaluate 0 0 / 0
+evaluate 2 x y 2 3 x^y + y^x - x*y
+evaluate 1 x 1.0 sin(x)^2 + cos(x)^2
+evaluate 3 a b c 0.5 1.5 2.5 a*b + b*c + c*a - a^b
+evaluate 1 x 1.0 exp(log(sqrt(x^2 + 3)))
+evaluate 1 x -2 x^3
+evaluate 1 x -2 x^2
+evaluate 1 x 9 sqrt(x)
+evaluate 1 x 0 log(x)
+evaluate 1 x 0 -sin(x)
+evaluate 1 e 2 e + 1
+evaluate 0 a2 + b3
+evaluate 1 my_var 3 2 * my_var + 1

@@ -1,0 +1,902 @@
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
+23
+14
+5
+5
+20
+10
+5
+-3
+7
+-2
+5
+-3
+250.1
+20
+550
+0.00001
+15.2432
+15
+6
+11
+1.35701
+2.71828
+0.693147
+2
+0
+0.769196
+2
+1
+0.546302
+0.523599
+1.0472
+0.785398
+cos(x) * 1 * x + sin(x) * 1
+3 * x ^ ((3 - 1)) * 1
+2 * x ^ ((2 - 1)) * 1 + 0 * x + 3 * 1 + 0
+exp(x) * 1
+cos(x) * 1
+1 / (2 * sqrt(x))
+1 / x
+14
+4.48169
+0.540302
+8
+ERROR Domain error: sqrt(-2.000000)
+ERROR Domain error: log(-1.000000)
+ERROR Domain error: asin(2.000000)
+ERROR Domain error: acos(2.000000)
+-inf
+inf
+inf
+ERROR Unknown variable: z
+ERROR Unexpected token: *
+ERROR Expected ')'
+ERROR Unexpected token: )
+ERROR Expected '(' after function sin
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+2
+17
+100
+0.5
+0.001235
+1.41421
+inf
+-inf
+nan
+11
+1
+5.39645
+2
+-8
+4
+3
+-inf
+-0
+3
+ERROR Unknown variable: a2
+7
